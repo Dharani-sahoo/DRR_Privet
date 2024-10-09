@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transport Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="booking.html">Booking</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Book a Transport Service</h1>
+    </header>
+
+    <section class="booking-form">
+        <h2>Transport Booking</h2>
+        <form id="bookingForm">
+            <label for="service">Choose a Service:</label>
+            <select id="service" required>
+                <option value="" disabled selected>Select Service</option>
+                <option value="Bus Transport">Bus Transport</option>
+                <option value="Private Hire">Private Hire</option>
+            </select>
+
+            <label for="pickup">Pick-up Location:</label>
+            <input type="text" id="pickup" placeholder="Enter pick-up location" required>
+
+            <label for="destination">Destination:</label>
+            <input type="text" id="destination" placeholder="Enter destination" required>
+
+            <label for="date">Date of Travel:</label>
+            <input type="date" id="date" required>
+
+            <button type="submit">Submit Booking</button>
+        </form>
+
+        <div id="confirmationMessage"></div>
+    </section>
+
+    <footer>
+        <p>© 2024 Transport Business. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+/* styles.css */
+body {
+    
+    font-family: 'Bungee Tint', sans-serif;
+    
+    
+    margin: 0;
+    padding: 0;
+    background-color: #aacfb8;
+}
+
+header {
+    background-color: #16bc7a;
+    color: rgb(32, 18, 159);
+    padding: 15px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 1;
+    padding: 1;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+h2 {
+    color: #901414;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.container, .services, .booking-form, .contact-form {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.service-card {
+    background-color: #dcd8d8;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #ab5a5a;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    color: #555;
+}
+
+input, select, textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
